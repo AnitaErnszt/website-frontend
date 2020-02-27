@@ -27,7 +27,7 @@ export default function Register (){
             let response = JSON.parse(request.responseText);
             console.log(response.status)
         })
-        request.open("POST", "https://tpcarzfjda.execute-api.eu-west-1.amazonaws.com/dev/auth/register")
+        request.open("POST", "https://********.execute-api.eu-west-1.amazonaws.com/dev/auth/register")
         request.send(JSON.stringify(registerForm))
     }
     

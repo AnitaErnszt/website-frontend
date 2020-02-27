@@ -12,7 +12,7 @@ export default function Contact(props){
             console.log(response.status)
             SetContent(<SuccessMessage />)
         })
-        request.open("POST", "https://tpcarzfjda.execute-api.eu-west-1.amazonaws.com/dev/contact-email")
+        request.open("POST", "https://********.execute-api.eu-west-1.amazonaws.com/dev/contact-email")
         request.send(JSON.stringify(email))
     }
 

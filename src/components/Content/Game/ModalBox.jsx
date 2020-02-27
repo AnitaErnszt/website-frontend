@@ -19,7 +19,7 @@ export default function ModalBox(props){
     };
     console.log(request_body);
     let request = new XMLHttpRequest();
-    request.open("POST", "https://tpcarzfjda.execute-api.eu-west-1.amazonaws.com/dev/dynamodb-game");
+    request.open("POST", "https://********.execute-api.eu-west-1.amazonaws.com/dev/dynamodb-game");
     request.send(JSON.stringify(request_body));
   }
 

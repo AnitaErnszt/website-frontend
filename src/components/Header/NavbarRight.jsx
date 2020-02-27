@@ -26,7 +26,7 @@ export default function NavbarRight(props){
           props.login(response.data.session.id_token);
         }
       });
-      request.open("POST", "https://tpcarzfjda.execute-api.eu-west-1.amazonaws.com/dev/auth/login");
+      request.open("POST", "https://********.execute-api.eu-west-1.amazonaws.com/dev/auth/login");
       request.send(JSON.stringify(login))
     }
 

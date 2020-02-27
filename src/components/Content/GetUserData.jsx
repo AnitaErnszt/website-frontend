@@ -12,7 +12,7 @@ export default function GetUserData(props){
         request.addEventListener("load", () => {
             SetResponse(JSON.parse(request.responseText).data.profile);
         })
-        request.open("GET", "https://tpcarzfjda.execute-api.eu-west-1.amazonaws.com/dev/account");
+        request.open("GET", "https://********.execute-api.eu-west-1.amazonaws.com/dev/account");
         request.setRequestHeader("Authorization", "Bearer " + props.user.id_token);
         request.send();
     }
