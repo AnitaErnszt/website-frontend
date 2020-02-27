@@ -1,2 +1,3 @@
 # website-frontend
-Front end for my website
+
+React frontend for my peronal website.
